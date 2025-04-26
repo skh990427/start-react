@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import MyApp from "./MyButton";
 
 function App() {
   return (
-      <div>초기생성</div>
+      <MyApp/>
   );
 }
 
