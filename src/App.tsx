@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import MyApp from "./MyButton";
 import Profile from "./Profile";
+import ShoppingList from "./ShoppingList";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
         <MyApp/>
         <br/>
         <Profile/>
+        <br/>
+          <ShoppingList/>
       </div>
   );
 }
