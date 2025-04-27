@@ -3,7 +3,7 @@ import './App.css';
 import MyApp from "./MyButton";
 import Profile from "./Profile";
 import ShoppingList from "./ShoppingList";
-import Sqaure from "./tictacto/Square";
+import Board from "./tictacto/Board";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Profile/>
         <br/>
           <ShoppingList/>
-          <Sqaure/>
+          <Board/>
       </div>
   );
 }
